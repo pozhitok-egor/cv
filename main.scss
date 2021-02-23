@@ -10,6 +10,8 @@ html {
 }
 
 body {
+  margin: 0 auto;
+  max-width: 108rem;
   padding: 4rem;
 }
 
@@ -61,11 +63,26 @@ header {
     & ul {
       list-style: none;
       & li {
+        margin-top: .5rem;
         text-align: right;
         & a {
           color: #000;
           text-decoration: none;
           border-bottom: 1px dotted #000;
+        }
+      }
+      &.social {
+        margin-top: .5rem;
+        display: flex;
+        justify-content: flex-end;
+        & li {
+          margin: 0 1rem;
+          & img {
+            width: 3.2rem;
+          }
+          & a {
+            border: none;
+          }
         }
       }
     }
@@ -128,6 +145,12 @@ main {
 @media screen and (max-width: 768px) {
   header {
     flex-wrap: wrap;
+
+  }
+  .header__info {
+    & ul.social {
+      justify-content: center;
+    }
   }
   main {
     & section {

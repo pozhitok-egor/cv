@@ -9,6 +9,8 @@ html {
 }
 
 body {
+  margin: 0 auto;
+  max-width: 108rem;
   padding: 4rem;
 }
 
@@ -56,6 +58,7 @@ header {
 }
 
 .header__info ul li {
+  margin-top: .5rem;
   text-align: right;
 }
 
@@ -63,6 +66,28 @@ header {
   color: #000;
   text-decoration: none;
   border-bottom: 1px dotted #000;
+}
+
+.header__info ul.social {
+  margin-top: .5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header__info ul.social li {
+  margin: 0 1rem;
+}
+
+.header__info ul.social li img {
+  width: 3.2rem;
+}
+
+.header__info ul.social li a {
+  border: none;
 }
 
 main section {
@@ -129,6 +154,11 @@ main section ul li {
   header {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+  }
+  .header__info ul.social {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   main section {
     -ms-flex-wrap: wrap;
