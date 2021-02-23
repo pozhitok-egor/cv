@@ -124,4 +124,20 @@ main section ul li {
   font-weight: 500;
   font-size: 1.6rem;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main section {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  main section .title {
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0 1rem;
+  }
+}
 /*# sourceMappingURL=main.css.map */
