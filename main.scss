@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  padding: 4rem;
+}
+
+h1 {
+  font: {
+    family: 'Lato', sans-serif;
+    size: 4.8rem;
+  }
+}
+
+h3 {
+  font: {
+    family: 'Lato', sans-serif;
+    size: 2.4rem;
+  }
+}
+
+h4 {
+  font: {
+    family: 'Lato', sans-serif;
+    size: 1.6rem;
+  }
+}
+
+p {
+  font: {
+    family: 'Lato', sans-serif;
+    weight: 500;
+    size: 1.6rem;
+  }
+}
+
+header {
+  display: flex;
+}
+
+.header {
+  &__title {
+    margin-right: 6rem;
+    margin-bottom: 6rem;
+  }
+  &__info {
+    font: {
+      size: 1.6rem;
+    }
+    width: 100%;
+    border-top: .6rem solid #000;
+    padding-top: 1rem;
+    & ul {
+      list-style: none;
+      & li {
+        text-align: right;
+        & a {
+          color: #000;
+          text-decoration: none;
+          border-bottom: 1px dotted #000;
+        }
+      }
+    }
+  }
+}
+
+main {
+  section {
+    display: flex;
+    & .title {
+      width: 20%;
+    }
+    & .info {
+      padding-top: 1rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid rgb(180, 180, 180);
+      width: 100%;
+      & .desc {
+        margin-bottom: 1rem;
+      }
+      &__title {
+
+      }
+      &__info {
+        margin: .5rem 0;
+        display: flex;
+        justify-content: space-between;
+        font: {
+          family: 'Montserrat', sans-serif;
+          weight: 400;
+          size: 1.6rem;
+        }
+      }
+      &__desc {
+        margin: .5rem 0 2rem;
+        font: {
+          size: 1.8rem
+        }
+      }
+    }
+    ul {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      & li {
+        width: 40%;
+        margin-left: 1.5rem;
+        margin-bottom: .5rem;
+        font: {
+          family: 'Montserrat', sans-serif;
+          weight: 500;
+          size: 1.6rem
+        }
+      }
+    }
+  }
+}
