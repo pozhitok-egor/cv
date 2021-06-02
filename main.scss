@@ -44,6 +44,15 @@ p {
   }
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px dotted #000;
+  &:hover {
+    font-weight: bold;
+  }
+}
+
 header {
   display: flex;
 }
@@ -65,11 +74,6 @@ header {
       & li {
         margin-top: .5rem;
         text-align: right;
-        & a {
-          color: #000;
-          text-decoration: none;
-          border-bottom: 1px dotted #000;
-        }
       }
       &.social {
         margin-top: .5rem;
@@ -102,9 +106,6 @@ main {
       width: 100%;
       & .desc {
         margin-bottom: 1rem;
-      }
-      &__title {
-
       }
       &__info {
         margin: .5rem 0;
