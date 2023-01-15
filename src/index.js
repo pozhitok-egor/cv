@@ -4,6 +4,7 @@ async function loadContent() {
   const data = await fetch("assets/json/content.json")
     .then(res => res.json())
     .catch(err => console.error(err));
+  addLinks(data.links);
   addSkills(data.skills);
   addAdditionalEducation(data.additionalEducation);
   addLanguages(data.languages);
