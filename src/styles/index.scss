@@ -1,0 +1,284 @@
+@import 'variables';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 108rem;
+  padding: 4rem;
+  font: {
+    family: 'Montserrat', sans-serif;
+    size: 1.6rem;
+  }
+  color: $text;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 3.4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+a {
+  color: $text;
+  text-decoration: none;
+}
+
+a.link {
+  position: relative;
+  border-bottom: 1px dotted $primary;
+  z-index: 1;
+  left: -0.5rem;
+  padding: 0.1rem 0.5rem;
+  transition: 0.2s color ease-in-out;
+  &::after {
+    position: absolute;
+    display: block;
+    content: ' ';
+    top: 0;
+    left: 0;
+    background-color: $primary;
+    height: 100%;
+    width: 0px;
+    z-index: -1;
+    transition: 0.2s width ease-in-out;
+  }
+  &:hover {
+    border-bottom: 1px solid transparent;
+    color: $background;
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+  &__title {
+    position: relative;
+    &::after {
+      position: absolute;
+      display: block;
+      content: '';
+      top: -2rem;
+      left: 2rem;
+      width: 10rem;
+      height: 10rem;
+      border-radius: 5rem;
+      background-color: $primary;
+      z-index: -1;
+    }
+  }
+  &__separator {
+    display: block;
+    content: '';
+    width: 1rem;
+    height: 5rem;
+    background-color: $primary;
+  }
+}
+
+.contacts {
+  &__title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  &__info {
+    display: flex;
+    gap: 1rem;
+  }
+  &-list {
+    &__item {
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+      align-items: center;
+    }
+    &__icon {
+      fill: $primary;
+    }
+  }
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 1rem;
+  &__link {
+    border: none;
+  }
+  &__icon {
+    width: 3rem;
+    height: 3rem;
+    fill: $primary;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  &__left,
+  &__right {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  &__left {
+    width: 40%;
+  }
+  &__right {
+    width: 60%;
+  }
+}
+
+.section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-left: 2.5rem;
+  &__icon {
+    position: absolute;
+    left: 0;
+    top: -1rem;
+    translate: -48%;
+    width: 4rem;
+    height: 4rem;
+    & path {
+      fill: $primary;
+    }
+    z-index: 1;
+    background-color: #fff;
+    padding: 0.5rem;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+  &__list {
+    list-style: none;
+    display: grid;
+    gap: 0.5rem;
+    &-item {
+      position: relative;
+    }
+    &-item::before {
+      position: absolute;
+      top: 0.8rem;
+      left: -2.6rem;
+      content: '';
+      width: 0.5rem;
+      height: 0.5rem;
+      border-radius: 50px;
+      background: $gray;
+    }
+  }
+  &__time,
+  &__place {
+    font-size: 1.4rem;
+  }
+  &__place {
+    color: $gray;
+  }
+  &::after {
+    display: block;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: $gray;
+    filter: opacity(50%);
+    height: calc(100% + 1rem);
+    width: 2px;
+  }
+  &:last-child::after {
+    height: calc(100% - 1rem);
+  }
+}
+.language {
+  &__name,
+  &__separator,
+  &__level {
+    width: 100%;
+  }
+  &__separator {
+    text-align: center;
+  }
+  &__level {
+    margin-right: 20%;
+  }
+}
+
+.gray {
+  color: $gray;
+}
+
+.spaced {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.section__skills {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.section__participation {
+  &-list {
+    padding-left: 1.6rem;
+  }
+}
+
+@media (max-width: 740px) {
+  .header {
+    flex-direction: column;
+    gap: 5rem;
+    margin-bottom: 5rem;
+    &__separator {
+      display: none;
+    }
+  }
+  .content {
+    flex-direction: column;
+    &__left,
+    &__right {
+      width: 100%;
+    }
+    &__right {
+      order: 0;
+    }
+    &__left {
+      order: 1;
+    }
+  }
+}
