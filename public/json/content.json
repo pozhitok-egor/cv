@@ -1,0 +1,118 @@
+{
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/pozhitok-egor/",
+    "telegram": "https://t.me/pozhit_ok",
+    "facebook": "https://facebook.com/pozhitok.e",
+    "github": "https://github.com/pozhitok-egor",
+    "pdf": "https://drive.google.com/uc?id=1E009IRAg-7cxjb0n0LtB0fOZKZ8edWYy&export=download"
+  },
+  "summary": [
+    "Experienced and motivated software engineer with university degree and over 2 years’ of practical experience. I am proficient in creating cross-browser and cross-device compatible applications with TypeScript and JavaScript and have a solid understanding of modern development libraries and frameworks such as React, React Native, Next.js, and Angular.",
+    "Have experience of working collaboratively in a multicultural team environment and have knowledge of QA methodologies and the software development life cycle (SDLC). Additionally, I have a Blue Card, which allows me to work and reside within the European Union"
+  ],
+  "education": [
+    {
+      "date": "2017 - 2021",
+      "location": "Minsk, Belarus",
+      "place": "Belarussian State University of Informatics and Radioelectronics",
+      "degree": "Bachelor's degree in Information Technology and control"
+    },
+    {
+      "date": "2017 - 2021",
+      "location": "Minsk, Belarus",
+      "place": "Belarussian State University of Informatics and Radioelectronics",
+      "degree": "Bachelor's degree in Information Technology and control"
+    }
+  ],
+  "experience": [
+    {
+      "date": "11/2021 - Present",
+      "jobTitle": "Software Engineer",
+      "company": "EPAM Systems",
+      "progress": [
+        "Developed features using TypeScript and JavaScript",
+        "Developed applications using React and Angular",
+        "Implemented state logic using Redux, Redux toolkit, RxJS",
+        "Wrote unit and integration tests with Jest, react testing library, Karma, and Jasmine",
+        "Implemented application analytics",
+        "Styled applications using SCSS, CSS, Styled-components",
+        "Participated in bug fixing and projects support",
+        "Collaborated with project members and customers"
+      ]
+    },
+    {
+      "date": "03/2021 - 05/2021",
+      "jobTitle": "Freelance Developer",
+      "company": "AlterFood",
+      "progress": [
+        "Developed application using Next.js",
+        "Implemented internationalization and contact forms API",
+        "Implemented application analytics",
+        "Fixed bugs and participating in projects support"
+      ]
+    },
+    {
+      "date": "07/2020 - 05/2021",
+      "jobTitle": "Freelance Developer",
+      "company": "Bar Kafedra",
+      "progress": [
+        "Developed application using HTML, SASS, JS and webpack",
+        "Implemented contact forms API",
+        "Fixed bugs and participated in projects support"
+      ]
+    }
+  ],
+  "skills": {
+    "Main": ["TypeScript", "JavaScript", "React", "React Native"],
+    "Frameworks": ["Next.js", "Angular", "Node.js", "Express", "Webpack"],
+    "Web": ["HTML5", "CSS3", "SASS"],
+    "Store": ["Redux", "Thunk", "RxJS"],
+    "Testing": ["Jest", "Karma", "Jasmine"],
+    "Databases": ["SQL", "PL/SQL", "NoSQL"],
+    "API": ["RestAPI", "GraphQL"],
+    "Others": ["Git", "Design Principles and Patterns", "Scrum"]
+  },
+  "additionalEducation": [
+    {
+      "title": "JavaScript / Front-End courses | RS School",
+      "certificateUrl": "https://app.rs.school/certificate/x2r476wg",
+      "time": "6 months | 09/20 - 02/21"
+    },
+    {
+      "title": "React courses | RS School",
+      "time": "2 months | 02/21 - 04/21"
+    },
+    {
+      "title": "React Native + Hooks | Udemy",
+      "certificateUrl": "https://www.udemy.com/certificate/UC-ec18763c-f5bb-4a2c-a315-15ecbf8e9712/"
+    },
+    {
+      "title": "Codewars",
+      "certificateUrl": "https://www.codewars.com/users/pozhitok-egor"
+    },
+    {
+      "title": "Cavendish School of English",
+      "certificateUrl": "https://i.imgur.com/SGvCUct.jpeg"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "level": "B2"
+    },
+    {
+      "language": "Polish",
+      "level": "A2"
+    },
+    {
+      "language": "Russian",
+      "level": "Native"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Course Project (ru)",
+      "url": "https://pozhitok-e.medium.com/croesus-rs-clone-1c3c3e336863"
+    }
+  ]
+}
