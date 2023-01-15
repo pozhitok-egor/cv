@@ -259,6 +259,15 @@ a.link {
   }
 }
 
+.footer {
+  margin-top: 5rem;
+  color: $gray;
+}
+
+.c-primary {
+  color: $primary;
+}
+
 @media (max-width: 740px) {
   .header {
     flex-direction: column;
