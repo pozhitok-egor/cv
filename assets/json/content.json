@@ -26,7 +26,17 @@
   ],
   "experience": [
     {
-      "date": "11/2021 - Present",
+      "date": "13/2023 - Present",
+      "jobTitle": "Software Engineer",
+      "company": "Valetax",
+      "progress": [
+        "Developed features using TypeScript and JavaScript",
+        "Participated in bug fixing and projects support",
+        "Collaborated with project members and customers"
+      ]
+    },
+    {
+      "date": "11/2021 - 03/2023",
       "jobTitle": "Software Engineer",
       "company": "EPAM Systems",
       "progress": [
