@@ -7,7 +7,7 @@
     "pdf": "https://drive.google.com/uc?id=1E009IRAg-7cxjb0n0LtB0fOZKZ8edWYy&export=download"
   },
   "summary": [
-    "Experienced and motivated software engineer with university degree and over 2 years’ of practical experience. I am proficient in creating cross-browser and cross-device compatible applications with TypeScript and JavaScript and have a solid understanding of modern development libraries and frameworks such as React, React Native, Next.js, and Angular.",
+    "Experienced and motivated software engineer with a university degree and over 3 years’ of practical experience. I am proficient in creating cross-browser and cross-device compatible applications with TypeScript and JavaScript and have a solid understanding of modern development libraries and frameworks such as React, React Native, Next.js, and Angular.",
     "Have experience of working collaboratively in a multicultural team environment and have knowledge of QA methodologies and the software development life cycle (SDLC). Additionally, I have a Blue Card, which allows me to work and reside within the European Union"
   ],
   "education": [
@@ -26,13 +26,16 @@
   ],
   "experience": [
     {
-      "date": "13/2023 - Present",
+      "date": "03/2023 - Present",
       "jobTitle": "Software Engineer",
       "company": "Valetax",
       "progress": [
-        "Developed features using TypeScript and JavaScript",
-        "Participated in bug fixing and projects support",
-        "Collaborated with project members and customers"
+        "Spearheaded frontend development for a startup in forex trading",
+        "Developed an intuitive account and wallet dashboard",
+        "Integrated financial systems for deposits and withdrawals",
+        "Utilized TypeScript and JavaScript for React application",
+        "Actively resolved bugs and supported project",
+        "Collaborated closely with the project team and clients",
       ]
     },
     {
